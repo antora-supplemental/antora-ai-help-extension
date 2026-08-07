@@ -4,19 +4,11 @@ ifndef::env-github[:icons: font]
 :sectanchors:
 endif::[]
 
-ifndef::env-github[]
+[[readme-top]]
 image:https://img.shields.io/github/contributors/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/antora-ai-help-extension/graphs/contributors]
 image:https://img.shields.io/github/forks/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/antora-ai-help-extension/network/members]
 image:https://img.shields.io/github/stars/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/antora-ai-help-extension/stargazers]
 image:https://img.shields.io/github/issues/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Issues,link=https://github.com/antora-supplemental/antora-ai-help-extension/issues]
-endif::[]
-
-ifdef::env-github[]
-image:https://img.shields.io/github/contributors/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Contributors]
-image:https://img.shields.io/github/forks/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Forks]
-image:https://img.shields.io/github/stars/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Stars]
-image:https://img.shields.io/github/issues/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Issues]
-endif::[]
 
 = Antora Supplemental — AI Help Extension
 
@@ -37,6 +29,8 @@ Works alongside existing Antora search (e.g. `@antora/lunr-extension`). That ext
 
 Design and specification: `docs/design/antora-ai-help-extension-spec.adoc`
 
+link:#readme-top[back to top]
+
 == Installation
 
 Setup (planned):
@@ -44,6 +38,8 @@ Setup (planned):
 . Add this repo (or the published package) to your playbook.
 . Configure `antora.extensions` and `ui.supplemental_files` as documented in the spec.
 . Configure AI response store path and (optional) embedding/search backend.
+
+link:#readme-top[back to top]
 
 == Usage
 
@@ -58,9 +54,13 @@ pnpm run build   # when implemented
 
 Format: `pnpm exec dprint fmt`
 
+link:#readme-top[back to top]
+
 == License
 
 TBD.
+
+link:#readme-top[back to top]
 
 == Contact
 
@@ -68,3 +68,5 @@ Antora Supplemental — support@antora-supplemental.org
 
 * Project: https://github.com/antora-supplemental/antora-ai-help-extension
 * Site: https://antora-supplemental.org
+
+link:#readme-top[back to top]
