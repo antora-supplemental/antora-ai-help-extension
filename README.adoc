@@ -4,7 +4,51 @@ ifndef::env-github[:icons: font]
 :sectanchors:
 endif::[]
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">Antora Supplemental — AI Help Extension</h3>
+<p align="center">
+Antora extension + supplemental UI: in-page AI help, vector search, and cached Q&A for docs gaps.
+<br /><br />
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
+
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/graphs/contributors"><img src="https://img.shields.io/github/contributors/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/network/members"><img src="https://img.shields.io/github/forks/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/stargazers"><img src="https://img.shields.io/github/stars/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues"><img src="https://img.shields.io/github/issues/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">Antora Supplemental — AI Help Extension</h3>
+<p align="center">
+Antora extension + supplemental UI: in-page AI help, vector search, and cached Q&A for docs gaps.
+<br /><br />
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/antora-supplemental/antora-ai-help-extension/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Contributors,link=https://github.com/antora-supplemental/antora-ai-help-extension/graphs/contributors]
 image:https://img.shields.io/github/forks/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Forks,link=https://github.com/antora-supplemental/antora-ai-help-extension/network/members]
 image:https://img.shields.io/github/stars/antora-supplemental/antora-ai-help-extension.svg?style=for-the-badge[Stars,link=https://github.com/antora-supplemental/antora-ai-help-extension/stargazers]
@@ -16,6 +60,7 @@ Antora extension + supplemental UI: in-page AI help, vector search, and cached Q
 
 link:https://github.com/antora-supplemental/antora-ai-help-extension/issues[Report Bug] ·
 link:https://github.com/antora-supplemental/antora-ai-help-extension/issues[Request Feature]
+endif::[]
 
 == About The Project
 
@@ -29,8 +74,9 @@ Works alongside existing Antora search (e.g. `@antora/lunr-extension`). That ext
 
 Design and specification: `docs/design/antora-ai-help-extension-spec.adoc`
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Installation
 
 Setup (planned):
@@ -39,8 +85,9 @@ Setup (planned):
 . Configure `antora.extensions` and `ui.supplemental_files` as documented in the spec.
 . Configure AI response store path and (optional) embedding/search backend.
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Usage
 
 * Node 18+
@@ -54,14 +101,16 @@ pnpm run build   # when implemented
 
 Format: `pnpm exec dprint fmt`
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == License
 
 TBD.
 
-link:#readme-top[back to top]
-
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
 == Contact
 
 Antora Supplemental — support@antora-supplemental.org
@@ -69,4 +118,6 @@ Antora Supplemental — support@antora-supplemental.org
 * Project: https://github.com/antora-supplemental/antora-ai-help-extension
 * Site: https://antora-supplemental.org
 
-link:#readme-top[back to top]
+++++
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+++++
